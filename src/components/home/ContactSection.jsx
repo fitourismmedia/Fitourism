@@ -34,7 +34,7 @@ export default function ContactSection() {
             <p className="mt-3 text-primary-foreground/75">Our specialists are here to help you create unforgettable memories.</p>
             <div className="mt-8 space-y-5">
               <p className="flex gap-4"><Phone className="h-5 w-5" /> +971 50 166 0310</p>
-              <p className="flex gap-4"><Mail className="h-5 w-5" /> airport@burjwings.com</p>
+              <p className="flex gap-4"><Mail className="h-5 w-5" /> airport@fitourism.com</p>
               <p className="flex gap-4"><MapPin className="h-5 w-5" /> 6th floor, office 301, Al Attar Building 2, Bur Dubai</p>
             </div>
           </div>

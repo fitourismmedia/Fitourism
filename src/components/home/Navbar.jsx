@@ -10,10 +10,10 @@ export default function Navbar() {
       <nav className="mx-auto flex h-20 max-w-7xl items-center justify-between px-5 lg:px-8">
         <button onClick={() => scrollTo("home")} className="group flex min-h-11 items-center gap-3 text-left">
           <span className="grid h-11 w-11 place-items-center rounded-full border border-primary/50 bg-primary/10 text-primary shadow-[0_0_35px_hsl(var(--primary)/0.25)] transition group-hover:scale-105">
-            <Plane className="h-5 w-5" />
+            <img src="/logo.png" alt="Logo" className="h-11 w-11" />
           </span>
           <span>
-            <span className="block font-display text-2xl font-semibold leading-none tracking-tight">Burj Wings</span>
+            <span className="block font-display text-2xl font-semibold leading-none tracking-tight">Fitourism</span>
             <span className="font-mono text-[10px] font-bold uppercase tracking-[0.26em] text-primary">Tourism LLC</span>
           </span>
         </button>
